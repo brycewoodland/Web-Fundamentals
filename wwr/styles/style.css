@@ -26,3 +26,11 @@ main section{
 #background{
     height: 725px
 }
+
+body{
+    background-color: #c8e0f4;
+}
+
+header{
+    background-color:#508aa8 ;
+}
