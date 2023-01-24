@@ -40,3 +40,7 @@ h2 {
     color: white;
     font-size: 20px;
 }
+
+h1:hover{
+    color: black;
+}
