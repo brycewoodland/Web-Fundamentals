@@ -57,14 +57,24 @@ h4 {
     color:#ba1200;
 }
 
-.book, .join {
+.book {
     text-align: center;
     color: #ba1200;
     text-decoration: none;
 }
 
-.book:hover, .join:hover {
+.join {
+    text-align: center;
+    color: #c8e0f4;
+    text-decoration: none;
+}
+
+.book:hover {
     color:#c8e0f4;
+}
+
+.join:hover {
+    color:#ba1200;
 }
 
 .msg h2 {
