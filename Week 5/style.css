@@ -7,7 +7,7 @@ div.color {
 }
 
 .size {
-    max-width: 960px;
+    max-width: 100%;
 }
 
 img {
@@ -15,10 +15,3 @@ img {
     height: 200px;
 }
 
-.left {
-    align-items: left;
-}
-
-.center {
-    align-items: center;
-}
