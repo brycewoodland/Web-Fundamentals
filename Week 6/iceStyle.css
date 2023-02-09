@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+  }
+  
+  .left {
+    grid-column: 1;
+    text-align: center;
+    height: auto;
+  }
+  
+  .right {
+    grid-column: 2;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+  }
+
+  .cherry {
+    color: rgb(73, 5, 5);
+  }
