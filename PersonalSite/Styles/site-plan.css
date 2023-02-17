@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@500&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,13 +11,13 @@ Fonts are separated by a | */
   --accent2-color: #003e1f;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Oswald";
+  --paragraph-font: Raleway, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #01110a;  /* headlines on a white background */ 
-  --headline-color-on-color: #d5f2e3; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #01110a ; /* paragraph text on a white background */ 
+  --headline-color-on-color: #d5f2e3; /* headlines on a colored background */  
+  --paragraph-color-on-white: #003e1f ; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #d5f2e3; /* paragraph text on a colored background */ 
   --paragraph-background-color:#01110a  ;
   --nav-link-color: #d5f2e3;
