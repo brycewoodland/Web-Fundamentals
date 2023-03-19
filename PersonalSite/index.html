@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 
-<header>
-    <a href="index.html">  
-        <img src="Images/rsz_audio_feel-logos.jpg" alt="Audio Feel Logo">  
+<header class="header">
+    <a id="logo_link" href="index.html">  
+        <img class="logo" src="Images/rsz_audio_feel-logos.jpg" alt="Audio Feel Logo">  
     </a>
     <nav>
         <a href="index.html">Home</a>
@@ -21,33 +21,35 @@
 </header>
 
 <body>
-    <section>
-        <h1 class="home-title">Audio Feel</h1>
-        <h2>Find new movies and music!</h2>
-        <p>We are an online community for lover's of entertainment. Our vision is to help you pick and 
+    <main class="home-grid">
+        <section>
+            <div class="text" >
+            <h1 class="title">Audio Feel</h1>
+            <h2 class="title">Find new movies and music!</h2>
+            <p>We are an online community for lover's of entertainment. Our vision is to help you pick and 
             find new music or movies. Not sure 'audio feel'? Check out the reviews and give something 
             new a try. Likewise, share the music and movies you love and rate them! Come browse, rate, 
-            and choose new albums, songs, movies, or T.V. shows to spend time enjoying!</p>
-        <div>
+            and choose new albums, songs, movies, or T.V. shows to spend time enjoying!</p> 
+            </div> 
+        <div class="first-pic">
             <img src="Images/rsz_top_pic.jpg" alt="Movies & Music">
         </div>
-    </section>
-    <main>
-        <section>
-            <div>
-                <h3>Music</h3>
-                <img src="Images/rsz_1rsz_pexels-giovanni-palma-9268573.jpg" alt="Cassettes & Vinyl">
-            </div>
         </section>
-        <section>
-            <div>
+            <section class="music-card">
+                <div class="title">
+                    <h3>Music</h3>
+                    <img class="card-img" src="Images/rsz_1rsz_pexels-giovanni-palma-9268573.jpg" alt="Cassettes & Vinyl">
+                </div>
+            </section>
+        <section class="movie-card" >
+            <div class="title">
                 <h3>Motion Picture</h3>
-                <img src="Images/rsz_1rsz_1pexels-lucas-pezeta-2398354.jpg" alt="Movies">
+                <img class="card-img" src="Images/rsz_1rsz_1pexels-lucas-pezeta-2398354.jpg" alt="Movies">
             </div>
         </section>
     </main>
 
-<footer>
+<footer class="header">
     <h3>Audio Feel &copy; 2023 - Bryce Woodland</h3>
     <a href="site-plan.html">Site Plan</a>
     <a href="leavereview.html">Leave a Review</a>

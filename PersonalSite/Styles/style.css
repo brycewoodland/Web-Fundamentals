@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@500&display=swap');
+
+.header {
+    background-color: #01110a ;
+    color: #d5f2e3;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color:#d5f2e3;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 18px;
+}
+nav a:hover {
+    color: #003e1f;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#d5f2e3;
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #01110a;
+    font-size: 18px;
+    font-family: Oswald, Raleway;
+}
+footer a {
+    text-align: center;
+    color: #d5f2e3 ;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a:hover {
+    color: #003e1f;
+}
+footer p {
+    font-size: 1.2em
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 150px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-img {
+    border: 10px solid #003e1f;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #73ba9b;
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+section {
+    width: 50%
+}
+.text {
+    text-align: left;
+    font-family: Oswald, Raleway;
+    grid-column: 2 / span 3;
+    grid-row: 1/2;
+}
+.first-pic {
+    grid-column: 1 / span 2;
+    grid-row: 1/2;
+}
+.music-card {
+    grid-column: 1 / span 2;
+    grid-row: 3/4;
+}
+.movie-card {
+    grid-column: 2 / span 3;
+    grid-row: 3/4;
+    
+}
+h3 {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: Oswald, Raleway;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
